@@ -57,6 +57,8 @@ add_lunch_combo revolt_find5-userdebug
 ## HTC
 # One
 add_lunch_combo revolt_m7-userdebug
+# DLX/DNA
+add_lunch_combo revolt_dlx-userdebug
 
 ## Sony
 # odin
