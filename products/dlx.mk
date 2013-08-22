@@ -1,14 +1,14 @@
- # Inherit AOSP device configuration for mako.
-$(call inherit-product, device/htc/dlx/device_dlx.mk)
+ # Inherit AOSP device configuration for dlx.
+$(call inherit-product, device/htc/dlx/full_dlx.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/cdma.mk)
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # Inherit VZW stuff
-#$(call inherit-product, vendor/revolt/configs/vzw.mk)
+$(call inherit-product, vendor/revolt/configs/vzw.mk)
 
 # DLX Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dlx
@@ -25,7 +25,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_dlx BUILD_FINGERPRINT=verizon_w
 PRODUCT_RELEASE_NAME := dlx
 
 # PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_dlx
+OVERLAY_TARGET := pa_xxhdpi
 
 # Boot Animation
 PRODUCT_COPY_FILES += \

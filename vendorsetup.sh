@@ -3,6 +3,8 @@
 add_lunch_combo revolt_mako-userdebug
 # Nexus 7
 add_lunch_combo revolt_grouper-userdebug
+# New Nexus 7
+add_lunch_combo revolt_flo-userdebug
 # Nexus 10
 add_lunch_combo revolt_manta-userdebug
 # Galaxy Nexus
@@ -19,10 +21,8 @@ add_lunch_combo revolt_i9300-userdebug
 add_lunch_combo revolt_d2spr-userdebug
 # Epic 4G
 add_lunch_combo revolt_d710-userdebug
-# Galaxy S4
-add_lunch_combo revolt_i9500-userdebug
-# Galaxy S4 
-add_lunch_combo revolt_i9505-userdebug
+# Galaxy S4 LTE
+add_lunch_combo revolt_jfltexx-userdebug
 # T-Mobile Galaxy S4
 add_lunch_combo revolt_jfltetmo-userdebug
 # Canadian Galaxy S4
@@ -56,16 +56,20 @@ add_lunch_combo revolt_find5-userdebug
 
 ## HTC
 # One
-add_lunch_combo revolt_m7-userdebug
-# DLX/DNA
+add_lunch_combo revolt_m7ul-userdebug
+# Sprint One
+add_lunch_combo revolt_m7spr-userdebug
+# T-Mobile One
+add_lunch_combo revolt_m7tmo-userdebug
+# AT&T One
+add_lunch_combo revolt_m7att-userdebug
+# Explorer 
+add_lunch_combo revolt_pico-userdebug
 add_lunch_combo revolt_dlx-userdebug
+
 
 ## Sony
 # odin
 add_lunch_combo revolt_odin-userdebug
 # yuga
 add_lunch_combo revolt_yuga-userdebug
-
-## Asus
-# tf300t
-add_lunch_combo revolt_tf300t-userdebug
